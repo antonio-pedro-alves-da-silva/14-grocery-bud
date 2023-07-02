@@ -107,6 +107,7 @@ function getEditID(e) {
   if (e.target.matches(".edit-btn")) {
     editID = e.target.parentElement.parentElement.getAttribute("data-id");
     submit.textContent = "edit";
+    input.focus()
   }
 }
 
